@@ -1,0 +1,10 @@
+Network -> (VPC - Public Subnet - IGW - Routing Table - Routing Table Association) 
+EC2  + Security Group -> For APP 
+Dyanmodb Table -> Database
+S3 Bucket-> For APP
+
+
+
+Backend
+S3 Bucket -> Store state file (ebthal-terraform-state)
+Dyanmodb Table -> State Lock  (ebthal)
